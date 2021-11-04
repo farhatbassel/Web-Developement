@@ -1,0 +1,64 @@
+.widgetSml {
+    flex: 1;
+    -webkit-box-shadow: 0px 0px 11px -1px #000000;
+    box-shadow: 0px 0px 15px -10px #000000;
+    padding: 20px;
+    margin-right: 20px;
+
+    .widgetSmlTitle {
+        font-size: 22px;
+        font-weight: 600;
+    }
+
+    .widgetSmlList {
+        padding: 0;
+        margin: 0;
+        list-style: none;
+
+        .widgetSmlListItem {
+
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            margin: 20px 0;
+
+            .widgetSmlImage {
+                width: 50px;
+                height: 50px;
+                border-radius: 50%;
+                object-fit: cover;
+            }
+
+            .widgetSmlUser {
+                font-size: 20px;
+                font-weight: normal;
+                display: flex;
+                flex-direction: column;
+
+                .widgetSmlUsername {
+                    font-weight: 600;
+                }
+
+                .widgetSmlUserTitle {
+                    font-weight: 300;
+                }
+            }
+
+            .widgetSmlButton {
+                display: flex;
+                align-items: center;
+                border: none;
+                border-radius: 10px;
+                padding: 7px 10px;
+                background-color: #eeeef7;
+                color: #555;
+                cursor: pointer;
+
+                .widgetSmlIcon {
+                    font-size: 20px !important;
+                    margin-right: 5px;
+                }
+            }
+        }
+    }
+}
